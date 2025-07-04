@@ -1,0 +1,41 @@
+# Gradle
+#    Ignore the generated local settings file.
+/gradle.properties
+.gradle/
+build/
+
+# IntelliJ IDEA
+/.idea/
+.run
+**/*.iml
+**/*.ipr
+**/*.iws
+out/
+
+# Eclipse
+**/.project
+**/.classpath
+**/.settings/
+/.metadata
+#    Eclipse Gradle oddity
+**/bin/default/
+
+.editorconfig
+
+# macOS
+.DS_Store
+
+# Python
+.pydevproject
+__pycache__
+
+# Ignore lucene included build
+/lucene
+
+# Ignore gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+.gradletasknamecache
+
+# WANT TO ADD MORE?  You can tell Git without adding to this file:
+# See https://git-scm.com/docs/gitignore
+# In particular, if you have tools you use, add to $GIT_DIR/info/exclude or use core.excludesFile
